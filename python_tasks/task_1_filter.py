@@ -4,7 +4,11 @@
 
 def filter_orders(order_ids):
     # TODO: Write your logic here
-    pass
+
+    temp = [i for i in order_ids if i > 100 and i % 2 ==0 ]
+
+    temp.sort(reverse=True)
+    return temp
 
 # Test Case
 test_data = [10, 105, 120, 44, 202, 300, 75, 110]

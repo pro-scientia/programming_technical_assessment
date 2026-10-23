@@ -4,6 +4,7 @@
 
 def is_banned(email, banned_list):
     # TODO: Implement the search logic
+    hash_list = []
     pass
 
 # Test
